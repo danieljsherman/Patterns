@@ -41,12 +41,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactoryPattern\AbstractVehicleFactory.cs" />
+    <Compile Include="AbstractFactoryPattern\CarFactory.cs" />
+    <Compile Include="AbstractFactoryPattern\VanFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VehicleClasses\AbstractCar.cs" />
+    <Compile Include="VehicleClasses\AbstractEngine.cs" />
+    <Compile Include="VehicleClasses\AbstractVan.cs" />
+    <Compile Include="VehicleClasses\AbstractVehicle.cs" />
+    <Compile Include="VehicleClasses\BoxVan.cs" />
+    <Compile Include="VehicleClasses\CarBody.cs" />
+    <Compile Include="VehicleClasses\CarChassis.cs" />
+    <Compile Include="VehicleClasses\CarGlassware.cs" />
+    <Compile Include="VehicleClasses\Coupe.cs" />
+    <Compile Include="VehicleClasses\Enums.cs" />
+    <Compile Include="VehicleClasses\IBody.cs" />
+    <Compile Include="VehicleClasses\IChassis.cs" />
+    <Compile Include="VehicleClasses\IEngine.cs" />
+    <Compile Include="VehicleClasses\IGlassware.cs" />
+    <Compile Include="VehicleClasses\IVehicle.cs" />
+    <Compile Include="VehicleClasses\Pickup.cs" />
+    <Compile Include="VehicleClasses\Sedan.cs" />
+    <Compile Include="VehicleClasses\Sport.cs" />
+    <Compile Include="VehicleClasses\StandardEngine.cs" />
+    <Compile Include="VehicleClasses\TurboEngine.cs" />
+    <Compile Include="VehicleClasses\VanBody.cs" />
+    <Compile Include="VehicleClasses\VanChassis.cs" />
+    <Compile Include="VehicleClasses\VanGlassware.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
