@@ -44,6 +44,12 @@
     <Compile Include="AbstractFactoryPattern\AbstractVehicleFactory.cs" />
     <Compile Include="AbstractFactoryPattern\CarFactory.cs" />
     <Compile Include="AbstractFactoryPattern\VanFactory.cs" />
+    <Compile Include="Builder\CarBuilder.cs" />
+    <Compile Include="Builder\CarDirector.cs" />
+    <Compile Include="Builder\VanBuilder.cs" />
+    <Compile Include="Builder\VanDirector.cs" />
+    <Compile Include="Builder\VehicleBuilder.cs" />
+    <Compile Include="Builder\VehicleDirector.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VehicleClasses\AbstractCar.cs" />

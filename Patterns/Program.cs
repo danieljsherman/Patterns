@@ -12,19 +12,25 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            string _whatToMake = "car";
+
+            Console.WriteLine("************* Implimenting Abstract Factory Pattern. ********\n");
+            Console.Write("Enter the vehicle you want (car/van): ");
+            string _whatToMake = Console.ReadLine();
+            
             AbstractVehicleFactory factory;
 
             switch (_whatToMake)
             {
                 case("car"):
+                    Console.WriteLine("\nCreating a CarFactory.\n");
                     factory = new CarFactory();
                     break;
                 case("van"):
+                    Console.WriteLine("\nCreating a VanFactory.\n");
                     factory = new VanFactory();
                     break;
                 default:
-                    throw new Exception("Type not supported");
+                    throw new Exception("\n" + _whatToMake + "is not supported\n");
             }
 
             IBody vehicleBody = factory.CreateBody();
@@ -34,7 +40,7 @@ namespace Patterns
             Console.WriteLine(vehicleBody.BodyParts);
             Console.WriteLine(vehicleChassis.ChassisParts);
             Console.WriteLine(vehicleGlassware.GlasswareParts);
-
+            Console.WriteLine("\n********** End Abstract Factory Pattern ************\n");
             Console.Read();
         }
     }
