@@ -8,7 +8,7 @@ namespace Patterns.VehicleClasses
 {
     public class TurboEngine : AbstractEngine
     {
-        public TurboEngine(int size, bool turbo) : base(size, turbo)
+        public TurboEngine(int size) : base(size, true)
         {
         }
     }

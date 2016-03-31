@@ -1,0 +1,15 @@
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUI\bin\Debug\PatternsUI.exe.config
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUI\bin\Debug\PatternsUI.exe
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUI\bin\Debug\PatternsUI.pdb
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUI\obj\Debug\PatternsUI.csprojResolveAssemblyReference.cache
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUI\obj\Debug\MainWindow.baml
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUI\obj\Debug\MainWindow.g.cs
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUI\obj\Debug\App.g.cs
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUI\obj\Debug\PatternsUI_MarkupCompile.cache
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUI\obj\Debug\PatternsUI.g.resources
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUI\obj\Debug\PatternsUI.Properties.Resources.resources
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUI\obj\Debug\PatternsUI.csproj.GenerateResource.Cache
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUI\obj\Debug\PatternsUI.exe
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUI\obj\Debug\PatternsUI.pdb
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUI\bin\Debug\Patterns.dll
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUI\bin\Debug\Patterns.pdb

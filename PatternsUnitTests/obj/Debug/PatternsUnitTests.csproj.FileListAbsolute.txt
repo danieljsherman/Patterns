@@ -1,0 +1,9 @@
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUnitTests\bin\Debug\PatternsUnitTests.dll
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUnitTests\bin\Debug\PatternsUnitTests.pdb
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUnitTests\bin\Debug\Patterns.dll
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUnitTests\bin\Debug\PatternsUI.exe
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUnitTests\bin\Debug\PatternsUI.pdb
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUnitTests\bin\Debug\Patterns.pdb
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUnitTests\obj\Debug\PatternsUnitTests.csprojResolveAssemblyReference.cache
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUnitTests\obj\Debug\PatternsUnitTests.dll
+C:\Users\DSherman\documents\visual studio 2013\Projects\Patterns\PatternsUnitTests\obj\Debug\PatternsUnitTests.pdb

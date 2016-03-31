@@ -1,0 +1,45 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="PatternsUI.MainWindow"
+        Title="Patterns" Width="550">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox Margin="5" BorderThickness="1" Grid.Column="0" Grid.Row="0" Header="Available Patterns">
+            <StackPanel Margin="0,0,0,0">
+                <RadioButton Margin="10" Content="Abstract Factory" Click="PatternButton_OnClick" />
+                <RadioButton Margin="10" Content="Builder" Click="PatternButton_OnClick"/>
+                <RadioButton Margin="10" Content="Factory" Click="PatternButton_OnClick"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Margin="5" Grid.Column="1" Grid.Row="0" Header="Status Messages"  >
+            <TextBlock TextWrapping="Wrap" Width="360" Padding="5" xml:space="preserve" x:Name="StatusMsg" Cursor="IBeam"></TextBlock>
+        </GroupBox>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" >
+            <Button Margin="10" Padding="5" Content="Display Pattern" Name="btnDisplay" Click="BtnDisplay_OnClick" HorizontalAlignment="Right"/>
+            <Button Margin="10" Padding="5" Content="Cancel" Name="btnCancel" Click="BtnCancel_OnClick" HorizontalAlignment="Right"/>
+        </StackPanel>
+        <StatusBar Grid.Row="2" Grid.ColumnSpan="2">
+            <StatusBar.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </ItemsPanelTemplate>
+            </StatusBar.ItemsPanel>
+            <StatusBarItem Grid.Column="0">
+                <Label Name="lblErrorMessage"></Label>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>
